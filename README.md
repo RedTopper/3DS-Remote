@@ -1,5 +1,5 @@
 # 3DS-Remote
-Sends and recieves IR and stuff!
+Sends and receives IR and stuff!
 
 ###IN ORDER TO USE IR YOU MUST HAVE ONE OF THE FOLLOWING GAMES:
 - Cubic Ninja(US)
@@ -23,9 +23,9 @@ Please make sure you have 3DSRemote.xml in the same directory as CPPTest.3dsx. I
  - Did you launch the homebrew with one of the mentioned games?
 - There is a bug. What do?
  - Report it on GitHub. I'll see what I can do.
-- When I compule it, it breaks everything.
+- When I compile it, it breaks everything.
  - I am using a modified version of smeas library. I'll see if I can upload it along with this (you will need to recompile his library with my changes)
 - Why does IR Transfer error show ffffffff?
- - Have you tried transfering something?
+ - Have you tried transferring something?
 - It doesn't work on my TV
  - I don't think it works on any TVs yet. It's more of a Proof of Concept. 
