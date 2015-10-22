@@ -1,0 +1,18 @@
+option batch abort
+option confirm off
+
+#Change this to the IP of your 3DS.
+open ftp://anonymous@192.168.0.3:5000/ -passive=off
+cd /3ds/3DSRemote/
+option transfer binary
+
+#Change this to your user folder.
+put C:\Users\AJ\git\3DS-Remote\3DSRemote.3dsx
+
+#And this too.
+put C:\Users\AJ\git\3DS-Remote\3DSRemote.smdh
+
+#And this too.
+put C:\Users\AJ\git\3DS-Remote\3DSRemote.xml
+close
+exit
